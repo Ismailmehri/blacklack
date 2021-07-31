@@ -1,0 +1,21 @@
+.score {
+  height: 100%;
+  width: 100%;
+  background: antiquewhite;
+}
+
+.start-button {
+  position: absolute;
+  bottom: 15px;
+}
+
+.oversize-button {
+  width: 284px;
+}
+
+.score-value {
+  font-size: xxx-large;
+  margin: 15px 50px 15px 50px;
+  color: green;
+  border: 1px solid;
+}

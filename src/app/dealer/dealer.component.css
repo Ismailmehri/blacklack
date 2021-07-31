@@ -1,0 +1,32 @@
+.dealer {
+  width: 100%;
+  background: darkgray;
+  height: 21.5rem;
+  padding: 1rem;
+}
+
+.winner {
+  position: relative;
+  left: 15%;
+  top: -75%;
+  background: white;
+  color: green;
+}
+
+.winner h1 {
+  font-size: 100px;
+}
+
+.loser {
+  position: relative;
+  left: 15%;
+  color: darkred;
+  top: -75%;
+  background: white;
+  z-index: 1;
+
+}
+
+.loser h1 {
+  font-size: 100px;
+}

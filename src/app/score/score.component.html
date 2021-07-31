@@ -1,0 +1,18 @@
+<div class="score">
+<div class="row">
+  <div class="col score-value">{{dealerScore}}</div>
+</div>
+
+  <div class="row">
+    <div class="col score-value">{{playerScore}}</div>
+  </div>
+
+  <div class="row">
+    <div class="col score-value" appPlayerScore [score]="playerScore"></div>
+  </div>
+
+  <div class="start-button">
+    <button type="button" class="btn btn-success btn-lg oversize-button" (click)="newGame()">Start</button>
+  </div>
+</div>
+
